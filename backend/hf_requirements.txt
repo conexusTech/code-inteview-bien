@@ -1,0 +1,9 @@
+aiohttp==3.10.5               # Required for making HTTP requests asynchronously
+fastapi==0.115.0               # Web framework
+langchain==0.3.0               # Main Langchain library
+langchain-huggingface==0.1.0   # Langchain support for Hugging Face
+huggingface-hub==0.25.0        # For Hugging Face API interaction
+uvicorn==0.30.6                # ASGI server for serving FastAPI
+pydantic==2.9.2                # Data validation and settings management
+python-dotenv==1.0.1           # For loading environment variables
+requests==2.32.3               # General purpose HTTP requests (if used)
